@@ -50,7 +50,7 @@ body{
         opacity: var(--opacity, 0.6);
         /* background-color: violet; */
         transition: transform 0.5s ease-out, opacity .2s ease-out;
-
+        border: 200px solid black;
 }
 
 /* .shadow-button-gravity{
@@ -70,4 +70,8 @@ body{
         background-color: rgb(0, 0, 0);
         transition: transform 0.5s ease-out, opacity .2s ease-out;
 
+}
+
+.box-wrapper > * {
+    border: 2px solid black;
 }

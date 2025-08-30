@@ -54,3 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
+const style = document.createElement('style');
+style.innerHTML = `
+  .box {
+    border: 2px solid black !important;
+  }
+`;
+document.head.appendChild(style);
